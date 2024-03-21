@@ -2,7 +2,7 @@ from aiogram import Bot, Dispatcher
 from aiogram.types import BotCommand, BotCommandScopeDefault
 import os
 from dotenv import load_dotenv
-load_dotenv(dotenv_path=r'C:\Users\Даниил\Desktop\P2P_Manager\venv\.env')
+load_dotenv(dotenv_path=r'')
 
 bot = Bot(token=os.getenv('BOT_TOKEN'))
 dp = Dispatcher()
