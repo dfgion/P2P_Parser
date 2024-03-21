@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 from db.models import Base
 
-load_dotenv(dotenv_path=r'C:\Users\Даниил\Desktop\P2P_Manager\venv\.env')
+load_dotenv(dotenv_path=r'')
 
 engine = create_async_engine(
         url=os.getenv("URL"),
