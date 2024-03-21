@@ -7,7 +7,7 @@ import uvicorn
 
 import aiofiles
 import sys
-sys.path.append(r'C:\Users\Даниил\Desktop\P2P_Manager')
+sys.path.append(r'')
 
 from core.config.cfg import bot, dp
 
