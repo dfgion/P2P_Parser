@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'C:\Users\Даниил\Desktop\P2P_Manager')
+sys.path.append(r'')
 
 from sqlalchemy import select, update, insert, distinct
 from sqlalchemy.sql import func
